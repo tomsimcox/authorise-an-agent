@@ -10,37 +10,35 @@
   <div class="grid-row">
     <div class="column-two-thirds">
 
+      <a href="javascript:history.back()" class="link-back">Back</a>
+
       <h1 class="heading-xlarge">
-        Appoint someone to handle your tax return
+        Your agent's ID
       </h1>
       <p>
-        Use this service to allow someone else to deal with your Self Assessment tax return.
-        This person will be known as your agent. An agent can be:
-
-        <ul class="list list-bullet">
-          <li>an accountant or tax adviser</li>
-          <li>a friend or relative</li>
-          <li>someone from a voluntary organisation</li>
-        </ul>
+        Enter the Government Gateway Agent ID of the person you want to appoint.
       </p>
 
-      <p>
-        You can also allow them to deal with HM Revenue and Customs (HMRC) about other matters.
-        These include National Insurance contributions and current Tax Credit claims.
-      </p>
+      <form method="post" action="setpassword">
+        <div class="form-group">
+          <label class="form-label-bold" for="username">Agent ID</label>
+          <input class="form-control" id="username" type="text" name="username">
+        </div>
+      </form>
 
-      <div class="panel panel-border-wide">
-        <p>
-          Your agent must be registered for HMRC online services. You'll need to know their Government Gateway Agent ID.
-        </p>
-      </div>
+      <details>
+        <summary>
+          <span class="summary">Don't know their Agent ID?</span>
+        </summary>
+        <div class="panel panel-border-narrow">
+          <p>
+            To appoint someone, you can <a href="">complete a PDF form and send it to HMRC</a>.
+          </p>
+        </div>
+      </details>
 
       <p>
-        If you don't know the person's Agent ID, you can <a href="">complete and send a PDF form instead</a>.
-      </p>
-
-      <p>
-        <a class="button button-start" href="your-details" role="button">Start now</a>
+        <a class="button" href="#" role="button">Continue</a>
       </p>
 
     </div>
