@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+
+
+<main id="content" role="main">
+
+  <div class="phase-banner">
+    <p>
+      <strong class="phase-tag">ALPHA</strong>
+      <span>This is a new service – your <a href="#">feedback</a> will help us to improve it.</span>
+    </p>
+  </div>
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-xlarge">
+        Appoint someone to handle your tax return
+      </h1>
+      <p>
+        Use this service to allow someone else to deal with your Self Assessment tax return.
+        This person will be known as your agent. An agent can be:
+
+        <ul class="list list-bullet">
+          <li>an accountant or tax adviser</li>
+          <li>a friend or relative</li>
+          <li>someone from a voluntary organisation</li>
+        </ul>
+      </p>
+
+      <p>
+        You can also allow them to deal with HM Revenue and Customs (HMRC) about other matters.
+        These include National Insurance contributions and current Tax Credit claims.
+      </p>
+
+      <div class="panel panel-border-wide">
+        <p>
+          Your agent must be registered for <abbr title="HM Revenue and Customs">HMRC</abbr> online services. You'll need to know their Government Gateway Agent ID.
+        </p>
+      </div>
+
+      <p>
+        If you don't know the person's Agent ID, you can <a href="">complete and send a PDF form instead</a>.
+      </p>
+
+      <p>
+        <a class="button button-start" href="agent-id" role="button">Start now</a>
+      </p>
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}
